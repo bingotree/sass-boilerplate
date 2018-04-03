@@ -1,0 +1,38 @@
+.container {
+    align-items: center;
+    max-width: $base-content-width;
+    background-color: $white;
+}
+.two-column {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ .left-column {
+   flex-grow: 1;
+   flex-shrink: 0;
+   flex-basis: 20%;
+   min-height: 300px;
+ }
+ .left-column .nav {
+   // TODO move to navmenu component
+   position: fixed;
+   transform: translateY(50%);
+   color: $dark-grey;
+   font-weight: bold;
+   padding: 20px;
+   top: 0;
+   z-index: -1;
+ }
+ .left-column .nav li {
+  list-style-type: none;
+  text-indent: 15px;
+ }
+ // Right Column
+ .right-column {
+   flex-grow: 5;
+   flex-shrink: 2;
+ }
+}
+
+// Vertical centering
+

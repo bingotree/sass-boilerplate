@@ -1,0 +1,11 @@
+// all @font-face declarations, if any.
+@font-face {
+      font-family: 'fontello';
+      src: url("#{$base-url}fonts/fontello.eot?11315987");
+      src: url("#{$base-url}fontello.eot?11315987#iefix") format('embedded-opentype'),
+           url("#{$base-url}fontello.woff?11315987") format('woff'),
+           url("#{$base-url}fontello.ttf?11315987") format('truetype'),
+           url("#{$base-url}fontello.svg?11315987#fontello") format('svg');
+      font-weight: normal;
+      font-style: normal;
+  }

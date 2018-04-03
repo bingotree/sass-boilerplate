@@ -1,0 +1,26 @@
+$font-family-text: source-sans-pro, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-display: source-serif-pro, Georgia, "Times New Roman", Times, serif;
+$font-family-code: source-code-pro, Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+$font-family-icon: "fontello", sans-serif;
+
+// Font weights
+$light: 100;
+$regular: 400;
+$bold: 600;
+
+// Base Font
+$base-font-family: $font-family-text;
+$base-font-weight: $regular;
+$base-font-size: 13px;
+$base-line-height: 1.4;
+
+// Header Fonts
+$header-font-family: $font-family-text;
+
+// Fixed Font
+$fixed-font-family: $font-family-code;
+$fixed-font-size: 85%;
+$fixed-line-height: $base-line-height;
+
+// Headings
+$header-font-weight: $bold;

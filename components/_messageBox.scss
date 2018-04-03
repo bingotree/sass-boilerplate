@@ -1,0 +1,31 @@
+.messageBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border-radius: $base-border-radius;
+  padding: $base-box-padding;
+  color:black;
+  box-shadow: 0px 2px 5px $color-shadow;
+
+ &__warning {
+  background-color: $warning-color;
+ }
+ &__error {
+  background-color: $error-color;
+  color: $color-light;
+ }
+ &__info {
+  background-color: $info-color;
+ }
+ &__success {
+  background-color: $success-color;
+ }
+}
+.messageBox > .icon {
+ display: inline-block;
+ margin-right: 25px;
+}
+.messageBox > .message {
+}
