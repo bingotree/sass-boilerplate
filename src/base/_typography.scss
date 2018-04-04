@@ -1,0 +1,61 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $color-text;
+  font: normal 125% / 1.4 $base-font-family;
+}
+::selection {
+ background-color: $color-accent;
+}
+// headers
+header {
+ & > h1, & > h2, & > h3, & > h4, & > h5 {
+  margin: 0;
+  display: block;
+ }
+}
+h1,h2,h3,h4,h5,h6 {
+ font-family: $header-font-family;
+ color: $color-text-strong;
+ margin: 20px 0px;
+ padding-left: 5px;
+ padding-right: 5px;
+ background-color: $dark-grey;
+ display: table;
+}
+.icon
+{
+  font-family: $font-family-icon;
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* You can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}

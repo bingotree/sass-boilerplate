@@ -1,0 +1,4 @@
+#!/bin/bash
+mkdir dist
+./node_modules/node-sass/bin/node-sass main.scss dist/main.css
+./node_modules/postcss-cli/bin/postcss dist/main.css | sponge dist/main.css
