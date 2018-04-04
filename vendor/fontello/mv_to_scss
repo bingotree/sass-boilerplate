@@ -1,6 +1,0 @@
-mv animation.css animation.scss
-mv fontello-codes.css fontello-codes.scss
-mv fontello-embedded.css fontello-embedded.scss
-mv fontello-ie7-codes.css fontello-ie7-codes.scss
-mv fontello-ie7.css fontello-ie7.scss
-mv fontello.css fontello.scss

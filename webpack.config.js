@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 module.exports = {
-  entry: './main.scss',
+  entry: './src/main.scss',
   module: {
     rules: [
       {
