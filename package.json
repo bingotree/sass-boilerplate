@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "The main file should be the only Sass file from the whole code base not to begin with an underscore. This file should not contain anything but `@import` and comments.",
+  "main": "index.js",
+  "scripts": {
+    "build:as-js": "./node_modules/webpack-cli/bin/webpack",
+    "build:as-css": "mkdir dist; ./node_modules/node-sass/bin/node-sass main.scss dist/main.css; ./node_modules/postcss-cli/bin/postcss dist/main.css | sponge dist/main.css;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingotree/sass-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bingotree/sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/bingotree/sass-boilerplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.2.0",
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.8.3",
+    "postcss": "^6.0.21",
+    "postcss-cli": "^5.0.0",
+    "postcss-loader": "^2.1.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  }
+}
