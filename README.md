@@ -5,10 +5,9 @@
     <img width="200" height="200"
       src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
-  <h1>SASS Loader</h1>
-  <p>Loads a SASS/SCSS file and compiles it to CSS.</p>
+  <h1>SASS Boilerplate</h1>
 </div>
-# SASS-BOILERPLATE
+
 
 ## Objective
 ### To provide a boilerplate of styles that:
