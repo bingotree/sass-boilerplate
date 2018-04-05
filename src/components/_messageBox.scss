@@ -5,22 +5,31 @@
   justify-content: center;
   margin: 5px;
   border-radius: $base-border-radius;
-  padding: $base-box-padding;
-  color:black;
+  padding: $base-box-padding 20px;
   box-shadow: 0px 2px 5px $color-shadow;
-
+  color: $color-primary;
+  background-color: rgba( $color-dark, .7 );
  &__warning {
+  color: $color-dark;
   background-color: $warning-color;
  }
  &__error {
-  background-color: $error-color;
   color: $color-light;
+  background-color: $error-color;
  }
  &__info {
+  color: $color-dark;
   background-color: $info-color;
  }
  &__success {
+  color: $color-dark;
   background-color: $success-color;
+ }
+ &--fixed {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
  }
 }
 .messageBox > .icon {

@@ -17,6 +17,11 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'), // abs path
+    publicPath: path.resolve(__dirname, '/dist/'),
     filename: 'main.css.js'
-  }
+  },
+  devServer: {
+    contentBase: path.resolve(__dirname, './'),
+    publicPath: path.resolve(__dirname, '/dist/'),
+  },
 };

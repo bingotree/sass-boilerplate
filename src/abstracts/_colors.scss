@@ -17,8 +17,28 @@ $light-grey: #f5f5f5;
 $grey: #AAA;
 $dark-grey: $satanic-grey;
 
-// Brand colors mapped to brand-agnostic names. These should be used in other files.
-$color-light: $light-grey;
+.yellow {
+ background-color: $yellow;
+}
+.blue {
+ background-color: $blue;
+}
+.green {
+ background-color: $green;
+}
+.red {
+ background-color: $red;
+}
+.black {
+ background-color: $black;
+}
+.white {
+ background-color: $white;
+}
+
+// Brand colors mapped to brand-agnostic names. These are the variables that should be used in other files.
+$color-light: $white;
+$color-dark: #222;
 $color-shadow: rgba($black, .125);
 $color-primary: $summer-sky;
 $color-accent: $easter-egg-pink;
@@ -43,9 +63,8 @@ $color-text-link-bgcolor-hover: darken($color-text-link-bgcolor, 10%);
 $color-text-link-bgcolor-active: darken($color-text-link-bgcolor, 10%);
 $color-text-link-border: $color-primary;
 
+// Alerts, Warnings, Success, Info
 $color-border: $dijon;
-
-
 $warning-color: $yellow;
 $success-color: $green;
 $error-color: $red;

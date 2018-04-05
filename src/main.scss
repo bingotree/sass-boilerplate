@@ -21,10 +21,10 @@
 
 // 4. Layout-related sections
 @import
+  'layout/default',
   'layout/header',
   'layout/content',
-  'layout/footer',
-  'layout/flexible-grid';
+  'layout/footer';
 
 // 5. Components
 @import
