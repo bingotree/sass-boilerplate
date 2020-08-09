@@ -6,6 +6,11 @@ $dijon: rgb(255, 204, 0);
 $satanic-grey: #666;
 $light-grey: #f5f5f5;
 
+
+$pink: #FF3D94;
+$cyan: #0FE5C0;
+$orange: #F7970D;
+
 // Our version of common colors
 $yellow: $dijon;
 $blue: $summer-sky;
@@ -40,14 +45,14 @@ $dark-grey: $satanic-grey;
 $color-light: $white;
 $color-dark: #222;
 $color-shadow: rgba($black, .125);
-$color-primary: $summer-sky;
-$color-accent: $easter-egg-pink;
+$color-primary: $pink;
+$color-accent: $cyan;
 $color-background: $white;
 $color-background-shade: $satanic-grey;
-$color-background-invert: $dijon;
+$color-background-invert: $orange;
 $color-text: darken($satanic-grey, 15);
 $color-text-weak: $light-grey;
-$color-text-strong: $dijon;
+$color-text-strong: $pink;
 $color-text-heading: $satanic-grey;
 $color-text-invert: rgba($color-background, .75);
 $color-text-strong-invert: $color-background;
