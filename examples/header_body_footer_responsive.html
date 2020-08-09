@@ -4,16 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
-  <link rel="stylesheet" type="text/css" href="/assets/css/main.css?">
+  <link rel="stylesheet" type="text/css" href="../dist/main.css?">
 </head>
 <body>
   <div class='content'>
+    <!-- anything in 'content' stretches across the full viewport -->
     <header>
       <div class='container'>
         <h1>StyleGuide</h1>
       </div>
     </header>
+    <!-- anything in 'container' fits the specified width -->
     <div class='container'>
+      <div class='center'>
+        <img class="center" src="./assets/img/banana.jpg" style="max-width: 100%"/>
+      </div>
       <section id='Colors'>
         <h2>Colors</h2>
       </section>
@@ -27,11 +32,12 @@
         I like to <a href='#'>link</a>, <a href='#'>link</a>, <a href='#'>link</a>, <a href='#'>apples and bananas</a>.
         External <a href='#' class='external'>link</a>, <a href='#' class='external'>link</a>, <a href='#' class='external'>link</a>, <a href='#' class='external'>apples and bananas</a>.
       </section>
+      <hr />
     </div>
    </div>
   <footer class="footer sticky">
-    <div class='messageBox messageBox--fixed'>
-      <p class='message'>I appear when you need to know about stuff.</p>
+    <div class='container'>
+      <p>Footer content is fun to write if you're into that kind of thing</p>
     </div>
   </footer>
 </body>
