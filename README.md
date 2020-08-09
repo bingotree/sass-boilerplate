@@ -4,7 +4,7 @@
 ### To provide a boilerplate of styles that:
 * is easy to customize
 * allows new client applications to be styled quickly, with (if desired) a consistent look and feel
-* serves as a centralized repo between applications, meaning it gets better and better over time  with increased usage.
+* serves as a centralized repo between applications, meaning it gets better and better over time with increased usage.
 
 ### To provide a minimum of tools which:
 * Demonstrate use with plain html
